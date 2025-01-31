@@ -1,0 +1,30 @@
+site_name: Anim Texture Pro
+site_url: https://AnimatrixLab.github.io/
+copyright: Copyright &copy; Animatrix Lab. All Rights Reserved.
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: images/anim-texture-icon.png
+  palette:
+    scheme: slate
+  font:
+    text: Roboto
+  features:
+    - navigation.footer
+
+markdown_extensions:
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - glightbox
+
+extra:
+  generator: false
+
+# Page tree
+nav:
+  - Home: index.md
+  - Documentation: anim-texture-pro.md
